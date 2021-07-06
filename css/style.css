@@ -1,0 +1,371 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.btn-primary{
+    background: springgreen;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background: transparent;
+    border-color: turquoise;
+    color: lightseagreen;
+}
+
+.btn-secondary{
+    background: transparent;
+    color: white;
+    border-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+.btn-secondary:hover{
+    background: springgreen;
+    color: white;
+}
+
+.flex-1{
+    flex:1;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --webkit-font-smotting:antialiased;
+}
+
+header{
+    background-color: #161616;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a {
+    color:#FFFFFF;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+
+}
+header nav .left a:hover{
+    color: springgreen;
+}
+
+header nav {
+    padding: 2rem 0;
+}
+
+header nav .branding{
+    margin-right: 3rem;
+}
+
+.hero{
+    padding: 4.5rem 0;
+}
+.container .branding h4{
+    color:white;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.hero .left img{
+    width: 400px;
+
+}
+
+.hero .right{
+    color: wheat;
+    
+}
+
+
+.hero .right h6{
+    font-size: 1.6rem;
+    color: springgreen;
+    margin-bottom: 0.5rem;
+}
+
+.hero .right h2{
+    font-size: 2.7rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero .right h2 span{
+    color: springgreen;
+}
+
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+.hero .right {
+    margin-top: -7rem;
+}
+
+section{
+    padding: 6rem 0;
+}
+
+#about-me{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+}
+
+section.about .about-me-img{
+    width: 300px;
+    height: 400px;
+}
+
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+section.about h1 span{
+    color: lightseagreen;
+}
+
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+section.about p{
+    font-family: 'Lato', sans-serif;
+    color: #898989;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+section.about .social{
+    display: flex;
+}
+
+section.about .social a img{
+   /* height: 30px;
+   width: 30px;
+   padding: 4px 4px; */
+   width: 100%;
+   height: 100%;
+   padding: 0.5rem;
+  
+}
+
+section.about .social a:hover{
+    background: springgreen;
+    
+   
+}
+
+section.about .social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    margin-right: 0.6rem;
+    transition: all .3s ease;
+}
+
+.recipies-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+/*food manu starts*/
+
+
+#menu-section{
+    padding: 1%;
+}
+#menu-section h1{
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 50px;
+    /* padding-bottom: 30px; */
+}
+
+#menu-section .about-food{
+    text-align: center;
+    margin-bottom: 50px;
+  
+}
+#menu-section .row{
+    display: flex;
+    padding: 0 20px 0;
+    place-content: center;
+
+}
+#menu-section .main-card{
+    margin: 10px;
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.685);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px black;
+    border: 1px solid black;
+}
+.card-body{
+    text-align: center;
+    
+}
+.card-body img{
+    width: 300px;
+    max-height: 200px;
+    border-radius: 12px;
+    display: block;
+}
+.item-desc{
+    background-color: rgb(165,164,164);
+    border-radius: 12px;
+}
+.item-name{
+    margin-top: 20px;
+    background: green;
+    color: white;
+    padding: 10px;
+}
+.item-desc > p{
+    font-size: 0.8rem;
+    padding: 10px;
+    font-weight: bold;
+}
+.card{
+    transition: 0.4s;
+}
+
+
+/*food ends starts*/
+
+
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+
+h1{
+    font-size: 50px;
+
+}
+h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+/* contact Section */
+#contact .contact {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 90%;
+}
+#contact .contact-items {
+
+	width: 100%;
+    display: flex;
+}
+#contact .contact-item {
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+	transition: 0.3s ease box-shadow;
+}
+#contact .contact-item:hover {
+	box-shadow: 0px 0px 5px 0 #0000002c;
+}
+#contact .icon {
+	width: 70px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+#contact .contact-info h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+#contact .contact-info h2 {
+	font-size: 1.3rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+#contact h1 {
+    text-align: center;
+    font-weight: 200;
+}
+/*End contact Section */
+/* fotter starts */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.footer-menu a{
+    display: block;
+    margin: 15px 0;
+    font-size: 1rem;
+    padding-right: 5px;
+    text-decoration: none;
+    display: inline-block;;
+    color: springgreen;
+    transition: all .3s ease;
+}
+
+.footer-menu a:hover{
+    color: turquoise;
+   
+}
+
+/* fotter ends */
